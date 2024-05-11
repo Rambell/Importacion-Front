@@ -1,5 +1,5 @@
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif;
    margin:0px 0px 0px 0px 
 }
 
@@ -61,7 +61,7 @@ body{
 
 .content-header{
   /* background-color: aqua; */
-  height: 450px;
+  height:600px;
   position: relative;
   z-index: 1;
 }
@@ -71,7 +71,7 @@ body{
   top: 0;
   left:0;
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-size: cover; 
   background-position: center;
   z-index: 0;
@@ -88,6 +88,7 @@ body{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
   z-index: 1; /* Asegura que el div overlay esté por encima del contenido */
+  box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .content-section {
@@ -115,9 +116,7 @@ body{
   padding: 5px 10px;
   cursor: pointer;
   font-size: 20px;
-  text-decoration: none;
-
-  
+  text-decoration: none; 
 }
 
 .content-presentacion .btn-presentacion:hover{
@@ -131,4 +130,91 @@ body{
 
 .content-presentacion .btn-presentacion .btn-pre:hover{
   background-color: rgb(223 19 19);
+}
+
+.home-contenido{
+  display: flex;
+  margin-top: 35px;
+  background-color: #7e2b1f;
+  box-shadow: 1px 2px 12px -3px rgba(0,0,0,0.75);
+}
+.home-contenido .content-imgh{
+  margin-left: 20px;
+  background-color: #7e2b1f;
+  border-radius: 40%;
+  margin-top: 50px
+}
+
+.home-contenido .content-p{
+  /* background-color: rgb(191, 233, 233); */
+  width: 100%;
+  margin: 0px 20px 0px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo-home{
+  color: rgb(255, 255, 255);
+  margin: 30px; 
+  font-size: 40px;
+}
+
+.pais-productos{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+
+.pais-productos h2{
+  padding: 30px;
+  font-size: 30px;
+}
+
+.section-home .content-card{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  gap: 30px;
+}
+
+
+.section-home .card{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px; /* Ancho de la tarjeta */
+}
+
+.section-home .card:hover{
+  box-shadow: 10px 9px 7px -6px rgba(126,43,31,1);
+}
+
+.section-home .card-img{
+  width: 100%;
+  height: 200px; /* Altura deseada para la imagen */
+  object-fit: cover; /* Ajustar la imagen al contenedor sin distorsionarla */
+}
+
+.section-home .card-content{
+  padding: 16px;
+}
+
+.card-content .card-title{
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card-content .card-band{
+  width: 30px;
+  border-radius: 20%;
+}
+
+.card-content .card-text{
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 16px;
 }

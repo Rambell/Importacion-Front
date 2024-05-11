@@ -26,8 +26,8 @@ export const Rutas = () => {
           <div className='overlay'></div>
         </div>
      
-        <div style={{marginTop:'130px'}}>
-          <section className='content-section'>
+
+          <section style={{marginTop:'30px'}}>
             <Routes>
                 <Route path="/" element= {<Home/>}/>
                 <Route path="/About" element= {<About/>}/>
@@ -37,7 +37,7 @@ export const Rutas = () => {
                 <Route path="*" element= {<NotFoundPage/>}/>
             </Routes>
           </section>
-        </div>
+      
         <footer style={{marginTop:'600px'}}>
           <ContenidoFotoer></ContenidoFotoer>
         </footer>
