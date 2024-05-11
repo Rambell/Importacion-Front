@@ -8,7 +8,7 @@ export const Navbar = () => {
     <div className='content'> 
       <nav className='nav-content'>
         <div className='logo'>
-            <img src={Ship} alt="logo" width={200} />
+            <img src={Ship} alt="logo" width={100} />
         </div>
         <div className='nav-list'>
           <ul >
@@ -17,7 +17,7 @@ export const Navbar = () => {
             <li><NavLink to="/productos">Productos</NavLink></li>
             <li><NavLink to="/about">Sobre Nosotros</NavLink></li>
             <li><NavLink to="/Contacto">Contacto</NavLink></li>
-            <button>Acceso</button>
+            <button className='btn-login'>Acceso</button>
           </ul>
               
         </div>

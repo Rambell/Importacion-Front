@@ -1,11 +1,12 @@
 import React from 'react'
+import Ship from '../assets/img/ppn.png'
 
 export const Home = () => {
   return (
     <div>
-      <h1>
-        holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-      </h1>
+      <div >
+            <img src={Ship} alt="logo" width={400} />
+        </div>
     </div>
   )
 }
