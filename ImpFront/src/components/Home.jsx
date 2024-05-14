@@ -48,10 +48,21 @@ export const Home = () => {
           </div>
         </div>
         <div>
-          <h2 className='pais-productos'>Revisa nuestro catalogo completo de los productos</h2>
-          <button><NavLink to="/productos" className='pais-productos' style={{textDecoration:'none'}}>Ver Productos</NavLink></button>
+          <h2 className='pais-productos' style={{paddingTop:'20px'}}>Revisa nuestro catalogo completo de los productos</h2>
+          <NavLink to="/productos" className='pais-productos' style={{textDecoration:'none'}}><button className='btn-vProductos'>Ver Productos</button></NavLink>
+        </div>
+        <div className='home-parte3'>
+          <h2 className='pais-productos' style={{paddingTop:'20px'}}>Trabajamos a la par y en regla con el Servicio Naciona de Aduanas</h2>
+          <div className='conten-home3'>
+            <div className='content-p3'>
+              <p className='parrafo-home3'>
+              El Servicio Nacional de Aduanas cumple funciones claves para el desarrollo del país, teniendo un rol preponderante en materia de comercio exterior, 
+              especialmente, en la facilitación y agilización de las operaciones de importación y exportación, a través de la simplificación de trámites y procesos aduaneros.            
+              </p>
+            </div> 
+            <img className='content-imgh3' src={Ship} alt="logo" width={400} />
+          </div>
           
-
         </div>
       </section>
     </div>

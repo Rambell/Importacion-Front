@@ -10,7 +10,7 @@ import { Contacto } from '../components/Contacto'
 import {PresentacionProductos} from '../components/PresentacionProductos'
 import { ContenidoFotoer } from '../components/ContenidoFotoer'
 
-import Barco from '../assets/img/barcoCarga.jpg'
+
 
 
 
@@ -21,9 +21,10 @@ export const Rutas = () => {
         <header className='content-header ' >
           <Navbar />
         </header>
+      
         <PresentacionProductos/>
         <div className='imgBarco'>
-          <div className='overlay'></div>
+          <div className='overlay'></div> 
         </div>
      
 
@@ -38,7 +39,7 @@ export const Rutas = () => {
             </Routes>
           </section>
       
-        <footer style={{marginTop:'600px'}}>
+        <footer style={{ background:'black'}}>
           <ContenidoFotoer></ContenidoFotoer>
         </footer>
       </BrowserRouter>
