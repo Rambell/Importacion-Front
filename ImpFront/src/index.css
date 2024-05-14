@@ -249,8 +249,8 @@ body{
 }
 
 .home-parte3{
-  background-color: #7e2b1f;
-  height: 600px;
+  background-color: #b80c0c;
+  height: 420px;
   font-size: 20px;
   color: white;
   padding-top: 20px;
@@ -262,9 +262,11 @@ body{
 }
 
 .content-p3{
-width: 70%;
+width: 50%;
 margin-left: 20%;
 margin-right: 60px;
+background-color: #930e0e;
+border-radius: 10px;
 
 }
 
@@ -274,6 +276,62 @@ margin-right: 60px;
   font-size: 20px;
 }
 
+.parrafo-home3 a{
+  color: #F38181;
+}
 .content-imgh3{
   margin-right: 20%;
+  background-color:#ffffff;
+  padding: 30px;
+  border-radius: 5px;
 }
+
+.content-foot{
+  height: 200px;
+  margin-top:none;
+  padding-top: 30px;
+  background-color: #E1EBF5;
+
+}
+
+.content-foot ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-list ul li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#0e4273;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo-footer{
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(circle, transparent 50%, #122435 50%); /* Círculo transparente con color en la mitad inferior */
+  background-size: 100% 200%; /* Tamaño del gradiente */
+  transition: background-position 0.3s ease;
+}
+
+.logo-footer:hover {
+  background-position: 0% 100%;
+}
+

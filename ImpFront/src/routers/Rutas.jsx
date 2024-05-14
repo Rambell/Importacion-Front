@@ -28,7 +28,7 @@ export const Rutas = () => {
         </div>
      
 
-          <section style={{marginTop:'30px'}}>
+          <section>
             <Routes>
                 <Route path="/" element= {<Home/>}/>
                 <Route path="/About" element= {<About/>}/>
@@ -39,8 +39,8 @@ export const Rutas = () => {
             </Routes>
           </section>
       
-        <footer style={{ background:'black'}}>
-          <ContenidoFotoer></ContenidoFotoer>
+        <footer>
+          <ContenidoFotoer/>
         </footer>
       </BrowserRouter>
           
