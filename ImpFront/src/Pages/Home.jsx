@@ -8,6 +8,7 @@ import TrigosSarra from '../assets/img/trigosSarra.jpg'
 import China from '../assets/img/china.png'
 import { NavLink} from "react-router-dom"
 import Aduanas from '../assets/img/adunas.png'
+import Importa from '../assets/img/servicioImpo.jpg'
 
 export const Home = () => {
   return (
@@ -57,20 +58,38 @@ export const Home = () => {
           <div className='conten-home3'>
             <div className='content-p3'>
               <p className='parrafo-home3'>
-              El Servicio Nacional de Aduanas cumple funciones claves para el desarrollo del país, teniendo un rol preponderante en materia de comercio exterior, 
-              especialmente, en la facilitación y agilización de las operaciones de importación y exportación, a través de la simplificación de trámites y procesos aduaneros.
-              <br /> 
-              Para más información has click <a href="https://www.aduana.cl/aduana/site/edic/base/port/inicio.html">aqui</a>         
+                El Servicio Nacional de Aduanas cumple funciones claves para el desarrollo del país, teniendo un rol preponderante en materia de comercio exterior, 
+                especialmente, en la facilitación y agilización de las operaciones de importación y exportación, a través de la simplificación de trámites y procesos aduaneros.
+                <br /> 
+                Para más información has click <a href="https://www.aduana.cl/aduana/site/edic/base/port/inicio.html">aqui</a>         
               </p>
             </div> 
             <img className='content-imgh3' src={Aduanas} alt="logo" width={400} />
           </div>
         </div>
         <div className='home-parte4'>
-          <h2 className='pais-productos' style={{padding:'20px'}}>Conoce nuestros servicios</h2>
-          <div>
-            hola
+          <h2 className='pais-productos' style={{padding:'20px', fontSize:'30px'}}>Beneficios</h2>
+          <div className='content-beneficios1'>
+            <p>
+              Variedad de sabores y opciones: Los alimentos importados pueden ofrecer una amplia gama de sabores únicos 
+              y auténticos de diferentes culturas y regiones del mundo. Esto permite a las personas explorar y disfrutar de una diversidad 
+              culinaria que puede no estar disponible localmente.
+            </p>
           </div>
+          <div className='content-beneficios2'>
+            <p>
+              Calidad y autenticidad: Algunos alimentos importados se valoran por su alta calidad y autenticidad. Por ejemplo, ciertas 
+              variedades de quesos, aceites de oliva, vinos y chocolates son conocidos por sus estándares de calidad y métodos de producción tradicionales.
+            </p>
+          </div>
+          <div className='content-beneficios3'>
+            <p>
+              Oportunidad de experimentar nuevas culturas: Los alimentos importados ofrecen una ventana a diferentes culturas y tradiciones culinarias de 
+              todo el mundo. Permiten a las personas experimentar y aprender sobre la gastronomía, los ingredientes y las prácticas culinarias de otras partes 
+              del mundo sin salir de su área local.
+            </p>
+          </div>
+          
         </div>
       </section>
     </div>

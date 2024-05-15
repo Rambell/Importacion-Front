@@ -335,3 +335,48 @@ border-radius: 10px;
   background-position: 0% 100%;
 }
 
+.home-parte4{
+  padding:0px 70px 0px 70px;
+}
+
+.home-parte4 .content-beneficios1{
+  width: 40%;
+  background-color: #316291;
+  color: white;
+  border-radius: 20px;
+}
+.home-parte4 .content-beneficios1 p{
+  padding: 30px;
+}
+.home-parte4 .content-beneficios2{
+  width: 50%;
+  margin: 0px 200px 0px 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #316291;
+  color: white;
+  border-radius: 20px;
+}
+.home-parte4 .content-beneficios2 p{
+  width: 80%;
+  padding: 30px;
+}
+
+.home-parte4 .content-beneficios3{
+  width: 55%;
+  margin: 15px 0px 15px 650px;
+  display: flex;
+  justify-content: end;
+  align-items:end ;
+  background-color: #316291;
+  color: white;
+  border-radius: 20px;
+}
+
+.home-parte4 .content-beneficios3 p{
+  width: 80%;
+  padding: 30px;
+}
+
+
