@@ -8,7 +8,6 @@ import TrigosSarra from '../assets/img/trigosSarra.jpg'
 import China from '../assets/img/china.png'
 import { NavLink} from "react-router-dom"
 import Aduanas from '../assets/img/adunas.png'
-import Importa from '../assets/img/servicioImpo.jpg'
 
 export const Home = () => {
   return (

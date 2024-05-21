@@ -1,0 +1,33 @@
+.content-navproduct{
+    background:#0C1722;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-navegacionprodu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-navegacionprodu .img-produc{
+    background: #7e2b1f;
+    border-radius: 50%;
+}
+
+.btn-regresarProduct{
+    background-color: #7e2b1f;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none; 
+  }
+  
+  .btn-regresarProduct:hover{
+    background-color: #D21414;
+  }

@@ -3,12 +3,6 @@ import { NavLink} from "react-router-dom"
 
 export const PresentacionProductos = () => {
 
-    const verProductos= () => {
-        return (
-            <li><NavLink to="/productos">Productos</NavLink></li>
-        )
-    }
-
   return (
     <div className='content-presentacion'>
         <h1>Acercamos los sabores del mundo a tu mesa</h1>

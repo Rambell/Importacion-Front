@@ -4,7 +4,7 @@ import { Home } from '../Pages/Home'
 import { About } from '../Pages/About'
 import { NotFoundPage } from '../Pages/NotFoundPage'
 import { Servicios } from '../Pages/Servicios'
-import { Productos } from '../Pages/Productos'
+import { Productos } from '../Pages/Productos/Productos'
 import { Contacto } from '../Pages/Contacto'
 import { Layout } from '../Layout'
 
