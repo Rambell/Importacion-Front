@@ -9,9 +9,8 @@ export const NavProduct = () => {
         <div className='content-navegacionprodu'>
             <img className='img-produc' src={Ship} alt="logo" width={100}/>
             <NavLink to="/" ><button className='btn-regresarProduct'>Regresar</button></NavLink>
-            <input type="search" /><span className="input-group-text bg-white">
-            <i className="bi bi-search" style={{ color: 'white' }}></i>
-          </span>
+            <input type="search" className='input-searc'/>
+            <span className="icon-search"><i className="bi bi-search" style={{ color: 'white' }}></i></span>
         </div>
     </div>
   )

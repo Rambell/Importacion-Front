@@ -28,6 +28,24 @@
     text-decoration: none; 
   }
   
-  .btn-regresarProduct:hover{
+.btn-regresarProduct:hover{
     background-color: #D21414;
   }
+
+.content-navegacionprodu .input-searc{
+    width: 380px;
+    border-radius: 10px;
+    height: 27px;
+}
+
+.content-navegacionprodu .icon-search{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 800px;
+    background-size: cover; 
+    background-position: center;
+    z-index: 0;
+    overflow: hidden;
+}
