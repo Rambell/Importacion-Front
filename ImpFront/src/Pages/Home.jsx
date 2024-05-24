@@ -9,7 +9,11 @@ import China from '../assets/img/china.png'
 import { NavLink} from "react-router-dom"
 import Aduanas from '../assets/img/adunas.png'
 
+
 export const Home = () => {
+
+
+
   return (
     <div>
       <section className='home-contenido'>
